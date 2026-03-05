@@ -1096,7 +1096,7 @@ function downloadCard() {
   setTimeout(() => {
     try {
       const link = document.createElement('a');
-      link.download = `seismic-memory-${cardNick.replace('@','')}.png`;
+      link.download = `Seismic-Timeline-${cardNick.replace('@','')}.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
     } catch(e) {
